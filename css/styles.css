@@ -127,7 +127,7 @@ button {
 
 .header {
   z-index: 1000;
-  position: sticky;
+  position: fixed;
   left: 0px;
   top: 0px;
 
@@ -254,6 +254,8 @@ button {
 */
 
 .hero {
+  position: relative;
+  top: 72px;
   max-width: 1440px;
   margin: 0 auto;
   padding-top: 188px;
@@ -689,6 +691,8 @@ button {
 }
 
 .portfolio-section {
+  position: relative;
+  top: 72px;
   padding-top: 96px;
 }
 
